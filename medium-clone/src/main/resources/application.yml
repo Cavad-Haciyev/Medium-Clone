@@ -1,0 +1,29 @@
+server:
+  port: 8000
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3307/medium-clone
+    username: root
+    password: admin
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+
+  main:
+    allow-circular-references: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: cavad.hcyv@gmail.com
+    password: zojyssmodghqqgdf
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+project:
+  image: images

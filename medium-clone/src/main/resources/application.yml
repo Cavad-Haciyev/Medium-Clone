@@ -3,9 +3,9 @@ server:
 spring:
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3307/medium-clone
-    username: root
-    password: admin
+    url: 
+    username:
+    password: 
   jpa:
     hibernate.ddl-auto: update
     generate-ddl: true
@@ -17,8 +17,8 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: cavad.hcyv@gmail.com
-    password: zojyssmodghqqgdf
+    username: 
+    password: 
     properties:
       mail:
         smtp:
